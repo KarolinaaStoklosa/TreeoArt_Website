@@ -3,18 +3,20 @@ import React from "react";
 const ContactForm = () => {
     return (
        
-        <div className="mt-28 bg-light w-full h-screen text-dark-900 font-[Roboto] " >
-            <div className="md:ml-24 mt-28 md:grid md:grid-cols-3 md:grid-rows-2 md:gap-10" >
-                <h1 className=" text-5xl tracking-tighter ml-6 pt-20 pb-20 md:col-span-3 md:row-start-1 md:ml-0">Jesteśmy gotowi. <br/>Twoja kolej.</h1>
-                <div className="md:row-start-2">
+        <div className="bg-inherit w-full h-[calc(100vh-80px)] text-inherit font-[Roboto] mt-20 pt-6" >
+            <div className="h-[calc(100vh-112px)] flex flex-col justify-center md:pb-0 md:ml-24 md:grid md:grid-cols-3 md:grid-rows-2 md:gap-10" >
+                <div className="grow flex flex-col justify-center md:self-end">
+                    <h1 className=" text-5xl tracking-tighter ml-6 md:col-span-3 md:row-start-1 md:ml-0">Jesteśmy gotowi. <br/>Twoja kolej.</h1>
+                </div>
+                <div className="md:row-start-2 md:pt-20">
                     <h3 className=" text-xl tracking-tighter ml-6 pb-2 md:ml-0">Napisz.</h3>
                     <h2 className="text-2xl underline tracking-tighter ml-6 pb-2 md:ml-0">kontakt@treeoart.pl </h2>
                 </div>
-                <div className="md:row-start-2">
+                <div className="md:row-start-2 md:pt-20">
                     <h3 className=" text-xl tracking-tighter ml-6 pb-2 md:ml-0">Zadzwoń.</h3>
                     <h2 className="text-2xl underline tracking-tighter ml-6 pb-2 md:ml-0">663 906 214 </h2>
                 </div>
-                <div className="md:row-start-2">
+                <div className="md:row-start-2 md:pt-20">
                     <h3 className=" text-xl tracking-tighter ml-6 pb-2 md:ml-0">Odwiedź.</h3>
                     <a target="_blank" href="https://www.facebook.com/profile.php?id=100087606938742" alt="facebook" >
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 ml-6 inline md:ml-0" fill="currentColor" viewBox="0 0 24 24">

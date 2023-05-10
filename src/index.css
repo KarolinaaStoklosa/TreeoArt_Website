@@ -15,4 +15,204 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+footer {
+  transition: background-color 0.3s ease-in-out;
+}
+@keyframes moveGradientt {
+  0% {
+    background-position: 0 0
+  }
+  100% {
+    background-position: 100% 0
+  }
+}
+
+.navGradient {
+  background: rgb(241,240,236);
+background: linear-gradient(0deg, rgba(241,240,236,1) 0%, rgba(241,240,236,0) 100%);
+background-size: 250% 250%;
+}
+
+.animateGradient {
+  animation: moveGradientt 5s linear infinite;
+  background-size: 400% 400%;
+}
+.animate-div {
+  animation: scaleAnimation 2s ease infinite alternate;
+}
+
+.gradient2 {
+  background: rgb(167,58,180,0);
+background: radial-gradient(circle at top left, #FC466B 20%, rgba(157,67,79,0) 40%,  #fdbb2d 99%);
+background-size: 100% 100%;
+animation: gradientFrames 7s infinite;
+}
+.gradient2b {
+  background: rgb(167,58,180,0);
+background: radial-gradient(circle at top left, #fdbb2d 20%, rgba(157,67,79,0) 40%,  #FC466B 99%);
+background-size: 100% 100%;
+animation: gradientFrames 7s infinite;
+}
+.gradient2c {
+  background: rgb(167,58,180,0);
+  background:  radial-gradient(circle at top left, #fdbb2d 20%, rgba(157,67,79,0) 40%,  #FC466B 99%);
+background-size: 100% 100%;
+animation: gradientFrames 7s infinite;
+animation-timing-function: ease-out;
+}
+.gradient2d {
+
+background: rgb(167,58,180,0);
+background: radial-gradient(circle at top left, #FC466B 20%, rgba(157,67,79,0) 40%,  #fdbb2d 99%);
+background-size: 100% 100%;
+animation-timing-function: linear;
+animation: gradientFrames 7s infinite;
+}
+
+.chapter {
+  color: #F1F0EC;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+  Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+  Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.btn-92,
+.btn-92 *,
+.btn-92 :after,
+.btn-92 :before,
+.btn-92:after,
+.btn-92:before {
+  border: 0 solid;
+  box-sizing: border-box;
+
+}
+.btn-92 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #0E0906;
+  background-image: none;
+  z-index: 0;
+  color: #F1F0EC;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  -webkit-mask-image: -webkit-radial-gradient(#0E0906, #F1F0EC);
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-92:disabled {
+  cursor: default;
+}
+.btn-92:-moz-focusring {
+  outline: auto;
+}
+.btn-92 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-92 [hidden] {
+  display: none;
+}
+.btn-92 {
+  border: 3px solid;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  padding: 12px 50px;
+  position: relative;
+  text-transform: uppercase;
+  transition: 0.2s;
+  z-index: 0;
+}
+.btn-92:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em #F1F0EC;
+  transform: translateY(-0.25em);
+}
+
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  z-index: 0;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid #F1F0EC;
+  color: #111;
+  cursor: pointer;
+  position: relative;
+  background-color: #F1F0EC;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52::after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover::after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+@keyframes gradientFrames {
+  0% {
+    background-position: 0%;
+    background-size: 100% 100%
+  }
+
+  
+  50% {
+    background-position: 0%;
+    background-size: 300% 300%
+  }
+  
+  100% {
+    background-position: 0%;
+    background-size: 100% 100%
+  }
+  
+}
+
+
 

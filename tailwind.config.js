@@ -16,6 +16,9 @@ module.exports = {
       'sans': ['ui-sans-serif', 'system-ui', 'Roboto'],
       'serif': ['ui-serif', 'Georgia', 'Cambria', 'serif'],
       'mono': ['ui-monospace', 'SFMono-Regular'],
+      'gallery': ['ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont',
+        'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif',
+        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
     },
     animation: {
       'toCircle': 'toCircle 3s ease-in'
