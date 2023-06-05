@@ -13,6 +13,7 @@ module.exports = {
     },
     fontFamily: {
       body: ['Roboto:wght@500'],
+      'Roboto': ['Roboto'],
       'sans': ['ui-sans-serif', 'system-ui', 'Roboto'],
       'serif': ['ui-serif', 'Georgia', 'Cambria', 'serif'],
       'mono': ['ui-monospace', 'SFMono-Regular'],

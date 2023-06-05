@@ -17,7 +17,7 @@ const ContactForm = () => {
                     <h3 className=" text-xl tracking-tighter ml-6 pb-2 md:ml-0">Zadzwoń.</h3>
                     <h2 className="text-2xl underline tracking-tighter ml-6 pb-2 md:ml-0">663 906 214 </h2>
                 </div>
-                <div className="md:row-start-2 md:pt-20">
+                <div className="md:row-start-2 md:pt-20 pb-4">
                     <h3 className=" text-xl tracking-tighter ml-6 pb-2 md:ml-0">Odwiedź.</h3>
                     <a target="_blank" href="https://www.facebook.com/profile.php?id=100087606938742" alt="facebook" >
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 ml-6 inline md:ml-0" fill="currentColor" viewBox="0 0 24 24">
@@ -33,8 +33,8 @@ const ContactForm = () => {
             </div>
  
         </div>
-        <div className="container mx-auto text-center py-4">
-            <p className="text-sm">
+        <div className="border-t-[0.01rem] border-gray-300 border-solid container mx-auto text-center">
+            <p className="text-sm p-2">
                 &copy; 2023 TREEO ART. Wszelkie prawa zastrzeżone.
             </p>
         </div>

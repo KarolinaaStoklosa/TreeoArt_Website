@@ -52,35 +52,35 @@ const GamePage = () => {
                     <img src={exitButton} alt="exit" className="absolute top-0 right-0 w-12 md:w-24 pointer-cursor" onClick={handleExit} />
                 </button>
                 <img src={baner} alt="kosztorys" className="w-[100%]" />
-                <div className={isShown ? "flex flex-row justify-center pb-12" : "flex flex-row justify-center flex-grow"}>
+                <div className={isShown ? "flex flex-row justify-center" : "flex flex-row justify-center flex-grow"}>
                     <div className="w-[150px] h-auto md:h-[200px] md:w-auto inline-block pointer-cursor" onClick={handleClick}>
-                        <video autoPlay muted loop className="h-full w-full">
+                        <video autoPlay muted loop className="h-full w-full" controlsList="nodownload" disablePictureInPicture>
                             <source src={zasadyGry} type="video/mp4" />
                         </video>
                     </div>
                     <div className="w-[150px] h-auto md:h-[200px] md:w-auto inline-block" onClick={handleClick}>
-                        <video autoPlay muted loop className="h-full w-full">
+                        <video autoPlay muted loop className="h-full w-full" controlsList="nodownload" disablePictureInPicture>
                             <source src={emotkaGif} type="video/mp4" />
                         </video>
                     </div>
                 </div>
-                <div ref={gameRulesRef} className="">
-                    <div className={isShown ? "w-[100%] h-auto hidden md:block" : "hidden"} ref={gameRulesRef}>
+                <div ref={gameRulesRef} className="bg-black mt-8">
+                    <div className={isShown ? "w-[100%] h-auto hidden md:block" : "hidden"}>
                         <img src={zasadyGryMD} alt="kosztorys" className="w-[100%]" />
                     </div>
-                    <div className={isShown ? "w-[100%] h-auto md:hidden" : "hidden"} ref={gameRulesRef}>
+                    <div className={isShown ? "w-[100%] h-auto md:hidden" : "hidden"}>
                         <img src={zasadyGrySM} alt="kosztorys" className="w-[100%]" />
                     </div>
                 </div>
 
                 <div className={isShown ? "flex items-center justify-evenly md:flex md:flex-row md:justify-center bg-black p-10" : "hidden"}>
                     <div className="w-[150px] h-auto md:h-[200px] md:w-auto inline-block" onClick={handleStart}>
-                        <video autoPlay muted loop className="h-full w-full">
+                        <video autoPlay muted loop className="h-full w-full" controlsList="nodownload" disablePictureInPicture>
                             <source src={emotkaStart} type="video/mp4" />
                         </video>
                     </div>
                     <div className="w-[150px] h-auto md:h-[200px] md:w-auto inline-block pointer-cursor" onClick={handleStart}>
-                        <video autoPlay muted loop className="h-full w-full">
+                        <video autoPlay muted loop className="h-full w-full" controlsList="nodownload" disablePictureInPicture>
                             <source src={startGry} type="video/mp4" />
                         </video>
                     </div>

@@ -2,7 +2,6 @@ import React from "react";
 import NavBar from "../NavBar/NavBar";
 import NavSideBar from '../NavBar/NavSideBar';
 import { motion } from "framer-motion";
-import { FaGift } from 'react-icons/fa';
 import gradientLoop from '../HomePage/image/gradientLoop.mp4';
 
 const ContactPage = () => {

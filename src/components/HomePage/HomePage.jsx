@@ -72,8 +72,8 @@ const HomePage = () => {
             </div>
 
 
-            <div className="md:p-20 pt-40 ml-6 md:ml-20 md:pl-6 md:mr-16 md:text-4xl text-3xl">
-                <div className="text-lg md:text-xl leading-tight mt-20 grid grid-cols-2 grid-rows-3 gap-12">
+            <div className="md:p-20 pt-40 ml-6 md:ml-20 md:pl-6 mr-6 md:mr-16 md:text-4xl text-3xl">
+                <div className="text-lg md:text-xl leading-tight mt-20 grid grid-cols-2 grid-rows-3 gap-8 md:gap-12">
                 <p className="row-span-3 md:text-4xl text-3xl font-[Roboto] tracking-tighter self-center md:leading-snug leading-tight md:pr-20"
                 >Współpraca <br className="md:hidden"></br>z najlepszymi <br></br>w branży to gwarancja, <br></br>że Twój remont będzie wykonany 
                 w stylu, <br className="invisible md:visible"></br>który Cię wyróżni.</p>
