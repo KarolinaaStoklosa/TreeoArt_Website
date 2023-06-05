@@ -32,7 +32,7 @@ const WorkPage = () => {
       }, []);
 
     return (
-        
+
             
             <motion.div className="bg-dark-900 text-light w-full mt-0 z-4 relative top-0 left-0  " 
             initial = {{opacity: 0}} animate = {{opacity:1}} transition={{ease: "easeInOut", duration:1, delay:0.1}}>
@@ -78,19 +78,19 @@ const WorkPage = () => {
                         decyzji w trakcie realizacji projektu?
                         </p>
                     </div>
-                    <img src={konsultacjeWzornik} alt="konsultacje, wzornik" className="w-[100%] pb-12 md:col-span-2 md:col-start-2 md:mt-12" />
+                    <img src={konsultacjeWzornik} alt="konsultacje, wzornik" className="w-[100%] pt-9 md:pt-0 pb-12 md:col-span-2 md:col-start-2 md:mt-12" />
                 </div>
                 <div className=" pb-3 md:col-start-2 md:row-start-1 md:row-span-2 md:mt-24 md:pt-2 ">
                     <p className='pb-3'>Każdy projekt wymaga indywidualnego podejścia. Dogłębnego zrozumienia potrzeb i wymagań. 
-                        Tylko w ten sposób możemy dostarczyć odpowiedni produkt. Produkt, który spełni oczekiwania. 
+                        <br/>Tylko w ten sposób możemy dostarczyć odpowiedni produkt, który spełni oczekiwania. 
                         Przewyższy je !
                     </p>
-                    <img src={konsultacjeGrafika} alt="konsultacje, grafika, kontakt" className="w-[100%] pb-4 md:mt-12" />
+                    <img src={konsultacjeGrafika} alt="konsultacje, grafika, kontakt" className="w-[100%] pb-4 md:mt-12 pt-9 md:pt-0" />
                 </div>
                 <div className='md:col-start-1 md:row-start-2 ' >
                     
                     <p className='pb-3'>Dialog pozwala na wymianę pomysłów i doświadczeń. 
-                        Pozwala lepiej zorganizować czas. Pamiętajcie !
+                        Pomaga lepiej zorganizować czas. Pamiętajcie !
                     </p>
                     <p className='pb-3'> Dzięki temu, wiedza ta przełoży się na jakość i zadowolenie z efektu końcowego. 
                         Niech to będzie Waszym nawykiem i priorytetem.
@@ -105,7 +105,7 @@ const WorkPage = () => {
                     <h2  className="text-4xl font-semibold underline mb-1 mt-1 pb-3 md:mb-12">kosztorys</h2>
                     <p className='pb-3 md:pb-8'>Czy nie warto poświęcić czas i energię na przygotowanie kosztorysu i szczegółowej wyceny?
                     </p>
-                    <img src={kosztorysGrafika} alt="kosztorys" className="w-[100%] pb-12 md:mt-12" />
+                    <img src={kosztorysGrafika} alt="kosztorys" className="w-[100%] pb-12 md:mt-12 pt-9 md:pt-0" />
                 </div>
                 <div className="md:row-start-2 md:row-span-2 md:col-start-2">
                     <p className='pb-12'>Oczywiście, dla nas jest to etap pracy, której nie widać. Która wydaje się być błaha.
@@ -128,14 +128,14 @@ const WorkPage = () => {
                     <h2  className="text-4xl font-semibold underline mb-1 mt-1 pb-3 md:mb-12">projekt</h2>
                     <p className='pb-3 md:pb-12'>Dlaczego musimy się ograniczać do szablonów i schematów?
                     </p>
-                    <img src={autoreklamaDlaczegoMy6} alt="dlaczego my, realizacja kraków" className="w-[100%] pb-12 md:pb-3" />
+                    <img src={autoreklamaDlaczegoMy6} alt="dlaczego my, realizacja kraków" className="w-[100%] pb-12 md:pb-3 pt-9 md:pt-0" />
                     {/* <img src={projektSzafa} alt="kosztorys" className="w-[100%] pb-12 " /> */}
                 </div>
                 <div className="md:row-span-3 md:col-start-2 md:row-start-2">
                     <p className='pb-3 md:pb-12'>Praca stolarza to nie tylko cięcie i wiercenie. To również, myślenie, projektowanie, 
                         wykorzystywanie materiałów. Projekt wymaga żmudnego i czasochłonnego zaangażowania.
                     </p>
-                    <img src={autoreklamaDlaczegoMy2} alt="dlaczego my, realizacja kraków" className="w-[100%] pb-12" />    
+                    <img src={autoreklamaDlaczegoMy2} alt="dlaczego my, realizacja kraków" className="w-[100%] pb-12 pt-9 md:pt-0" />    
                 
                     <p className='pb-3'>Na końcu, chodzi nam o zadowolenie Klienta. Jego pełne zrozumienie procesu wykonania mebla. 
                         Chcemy przekazać mu wiedzę. Pokazać alternatywy.
@@ -150,13 +150,13 @@ const WorkPage = () => {
                     <h2  className="text-4xl font-semibold underline mb-1 mt-1 pb-3 md:mb-12">realizacja</h2>
                     <p className='pb-3'>Odpowiedzialność za usługę wymaga precyzji !</p> 
                     <p className='pb-3 md:mb-12'>Nasza praca opiera się na realizacjach na wymiar. Dlaczego to takie ważne ? </p>
-                    <img src={realizacjaRegał} alt="kosztorys" className="w-[100%] pb-12 md:pb-0" />
+                    <img src={realizacjaRegał} alt="kosztorys" className="w-[100%] pb-12 md:pb-0 pt-9 md:pt-0" />
                 </div>
                 <div className="md:row-span-2 md:col-start-2 md:row-start-2 md:self-end">
                     <p className='pb-3'>Każdy Klient jest inny. Ma swoje indywidualne potrzeby i oczekiwania. 
                         My wykorzystujemy przestrzeń, materiał i wykończenie. Realizacja staje się personalna i unikatowa.
                     </p>
-                    <img src={realizacjaGarderoba} alt="kosztorys" className="w-[100%] pb-12 md:pb-12" />
+                    <img src={realizacjaGarderoba} alt="kosztorys" className="w-[100%] pb-12 md:pb-12 pt-9 md:pt-0" />
                    
                     <p className='pb-3 md:pb-0'>Inwestycja w trwałość, jakość i funkcjonalność.
                     </p>

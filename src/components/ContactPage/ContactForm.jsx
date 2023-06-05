@@ -2,11 +2,12 @@ import React from "react";
 
 const ContactForm = () => {
     return (
+        <>
        
         <div className="bg-inherit w-full h-[calc(100vh-80px)] text-inherit font-[Roboto] mt-20 pt-6" >
             <div className="h-[calc(100vh-112px)] flex flex-col justify-center md:pb-0 md:ml-24 md:grid md:grid-cols-3 md:grid-rows-2 md:gap-10" >
                 <div className="grow flex flex-col justify-center md:self-end">
-                    <h1 className=" text-5xl tracking-tighter ml-6 md:col-span-3 md:row-start-1 md:ml-0">Jesteśmy gotowi. <br/>Twoja kolej.</h1>
+                    <h1 className=" text-5xl tracking-tighter ml-6 md:col-span-3 md:row-start-1 md:ml-0">Jesteśmy gotowi. <br/>Twoja kolej.<br/>Teraz.</h1>
                 </div>
                 <div className="md:row-start-2 md:pt-20">
                     <h3 className=" text-xl tracking-tighter ml-6 pb-2 md:ml-0">Napisz.</h3>
@@ -30,7 +31,14 @@ const ContactForm = () => {
                     </a>
                 </div>
             </div>
+ 
         </div>
+        <div className="container mx-auto text-center py-4">
+            <p className="text-sm">
+                &copy; 2023 TREEO ART. Wszelkie prawa zastrzeżone.
+            </p>
+        </div>
+    </>
 
     )
 }

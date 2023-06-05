@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { FaArrowUp } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
 
-function ScrollArrow( {bottomPosition = '3rem', rightPosition = '0.25rem'} ) {
+function ScrollArrow( {bottomPosition = '4rem', rightPosition = '0.25rem'} ) {
   const [showScroll, setShowScroll] = useState(false);
   const lastScrollPosition = useRef(window.pageYOffset);
   const { pathname } = useLocation();

@@ -5,18 +5,19 @@ import { FaInstagram } from 'react-icons/fa'
 import { FaPhoneAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-const NavSideBar = () => {
+const NavSideBarGallery = () => {
  
   return (
     <>
-        <div className="fixed bottom-0 right-0 m-4 mr-2 animate-div">
-            <Link to="/game">
-                <button className="gradient2 hover:from-pink-500 hover:to-yellow-500 text-inherit rounded-full p-2 shadow-lg">
-                    <FaGift size={24} color="text-inherit" />
-                </button>
-            </Link>
-        </div>
-        <div className="invisible md:visible fixed bottom-0 left-0 w-[6.5rem] md:flex md:flex-col md:items-center md:wrap">
+        
+        <div className="invisible md:visible fixed bottom-8 left-0 w-[6.5rem] md:flex md:flex-col md:items-center md:wrap">
+            <div className="p-4 animate-div">
+                <Link to="/game">
+                    <button className="gradient2 hover:from-pink-500 hover:to-yellow-500 text-inherit rounded-full p-2 shadow-lg">
+                        <FaGift size={24} color="text-inherit" />
+                    </button>
+                </Link>
+            </div>
             <a target="_blank" href="https://www.facebook.com/profile.php?id=100087606938742" alt="facebook" >
                 <button className="text-inherit p-4 pb-6">
                     <FaFacebook size={32} color="text-inherit" />
@@ -33,8 +34,18 @@ const NavSideBar = () => {
                 </button>
             </Link>
         </div>
+
+        <div className="md:invisible visible fixed bottom-10 left-0 w-[6.5rem]">
+            <div className="p-4 pb-6 animate-div">
+                <Link to="/game">
+                    <button className="gradient2 hover:from-pink-500 hover:to-yellow-500 text-inherit rounded-full p-2 shadow-lg">
+                        <FaGift size={24} color="text-inherit" />
+                    </button>
+                </Link>
+            </div>
+        </div>
     </>
   );
 }
 
-export default NavSideBar;
+export default NavSideBarGallery;

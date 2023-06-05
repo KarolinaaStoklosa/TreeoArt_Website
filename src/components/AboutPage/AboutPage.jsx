@@ -76,7 +76,7 @@ const AboutPage = () => {
                         <div className="w-1/2 p-1 md:w-full md:p-0">
                             <h4 className="text-2xl font-semibold mb-1" >idea</h4>
                             <p className="leading-snug md:leading-normal">Wychodzimy z pomocną dłonią. Pokazujemy, że każde pomieszczenie może stać się
-                                funkcjonalne, piękne i wyjątkowe. Chcemy by miejsce, w którym żyjesz było unikatowe. 
+                                funkcjonalne, piękne i wyjątkowe. Chcemy, by miejsce, w którym żyjesz było unikatowe. 
                                 Pełne charakteru. Maksymalnie dopasowane do Twoich potrzeb.
                             </p>
                         </div>

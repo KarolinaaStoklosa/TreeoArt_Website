@@ -18,7 +18,7 @@ import img11 from './image/07/11.jpg';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 import { Link } from "react-router-dom";
-import NavSideBar from "../NavBar/NavSideBar";
+import NavSideBarGallery from "../NavBar/NavSideBarGallery";
 
 
 
@@ -89,7 +89,7 @@ const GallerySubPage07 = () => {
             </div>
         </div>
 
-        <NavSideBar/>
+        <NavSideBarGallery/>
         <ScrollArrow />
         <footer id="GS07footer" className=''>
                 <ContactForm />

@@ -87,7 +87,7 @@ const GalleryPage = () => {
             <div>
                 <h4 className="chapter text-xl md:text-3xl md:m-8">TREEO ART #1</h4>
                 <div className="grid grid-cols-2 grid-rows-3 gap-4 md:grid-cols-5 md:grid-rows-2 mb-4 md:gap-8 md:mb-8">
-                    <img src={galeriaKrakowSzymon01} alt="regał i lamele Kraków" className="col-start-1 row-start-3 md:col-start-4 md:col-span-2 md:row-start-1" />
+                    <img src={galeriaKrakowSzymon01} alt="regał i lamele Kraków"  className="col-start-1 row-start-3 md:col-start-4 md:col-span-2 md:row-start-1" />
                     <img src={galeriaKrakowSzymon02} alt="kuchnia na wymiar Kraków" className="col-start-1 row-start-1 col-span-2 row-span-2 md:col-start-1 md:col-span-3 md:row-start-1" />
                     <img src={galeriaKrakowSzymon04} alt="szafki wiszące przeszklone Kraków" className="col-start-2 row-start-3 md:col-start-4 md:col-span-2 md:row-start-2" />
                 </div>
@@ -234,16 +234,6 @@ const GalleryPage = () => {
                 </Link>
             </div>
 
-            <div >
-                <h4 className="chapter text-xl md:text-3xl md:m-8">TREEO ART #8</h4>
-                <div className="grid grid-cols-2 grid-rows-1 gap-4 md:mb-8 md:w-[60%]">
-                    <img src={galeriaSzafkaŁazienka01} alt="biurko loftowe, Kraków" className="col-start-2 row-start-1 self-end" />
-                    <img src={galeriaSzafkaŁazienka02} alt="kwietnik loftowy, Kraków" className="col-start-1 row-start-1" />
-                </div>
-                <Link to="/tworczosc/08">
-                    <button className=" btn-92 md:mb-16">Odkryj więcej</button>
-                </Link>
-            </div>
 
 
         </div>

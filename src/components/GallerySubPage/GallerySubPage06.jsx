@@ -33,7 +33,7 @@ import img28 from './image/06/28.jpg';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 import { Link } from "react-router-dom";
-import NavSideBar from "../NavBar/NavSideBar";
+import NavSideBarGallery from "../NavBar/NavSideBarGallery";
 
 
 
@@ -131,7 +131,7 @@ const GallerySubPage06 = () => {
             </div>
         </div>
 
-        <NavSideBar/>
+        <NavSideBarGallery/>
         <ScrollArrow />
         <footer id="GS06footer" className=''>
                 <ContactForm />

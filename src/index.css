@@ -177,6 +177,15 @@ animation: gradientFrames 7s infinite;
   left: 0px;
 }
 
+  .custom-cursor {
+    cursor: url('./components/image/cursor.png'), auto !important;
+  }
+
+  .pointer-cursor {
+      cursor: url('./components/image/pointer.png'), auto !important;
+    }
+
+
 @media (min-width: 768px) {
   .button-52 {
     padding: 13px 50px 13px;

@@ -18,7 +18,7 @@ import img12 from './image/04/12.jpg';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 import { Link } from "react-router-dom";
-import NavSideBar from "../NavBar/NavSideBar";
+import NavSideBarGallery from "../NavBar/NavSideBarGallery";
 
 
 
@@ -91,7 +91,7 @@ const GallerySubPage04 = () => {
                 </div>
         </div>
 
-        <NavSideBar/>
+        <NavSideBarGallery/>
         <ScrollArrow />
         <footer id="GS04footer" className=''>
                 <ContactForm />

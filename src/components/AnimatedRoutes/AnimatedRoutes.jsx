@@ -14,6 +14,8 @@ import GallerySubPage04 from '../GallerySubPage/GallerySubPage04';
 import GallerySubPage05 from '../GallerySubPage/GallerySubPage05';
 import GallerySubPage06 from '../GallerySubPage/GallerySubPage06';
 import GallerySubPage07 from '../GallerySubPage/GallerySubPage07';
+import GamePage from '../Game/GamePage';
+import PrivacyPolicy from '../PrivacyPolicy/PrivacyPolicy';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -31,6 +33,7 @@ function AnimatedRoutes() {
           <Route path="/autoreklama" element={<AboutPage />} />
           <Route path="/tworczosc" element={<GalleryPage />} />
           <Route path="/wizytowka" element={<ContactPage />} />
+          <Route path="/game" element={<GamePage />} />
           <Route path="/tworczosc/01" element={<GallerySubPage01 />} />
           <Route path="/tworczosc/02" element={<GallerySubPage02 />} />
           <Route path="/tworczosc/03" element={<GallerySubPage03 />} />
@@ -38,6 +41,7 @@ function AnimatedRoutes() {
           <Route path="/tworczosc/05" element={<GallerySubPage05 />} />
           <Route path="/tworczosc/06" element={<GallerySubPage06 />} />
           <Route path="/tworczosc/07" element={<GallerySubPage07 />} />
+          <Route path="/politykaPrywatnosci" element={<PrivacyPolicy />} />
         </Routes>
         </AnimatePresence>
 
