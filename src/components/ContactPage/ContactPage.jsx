@@ -18,7 +18,7 @@ const ContactPage = () => {
                         </video>
                     </div>
                     <div className="ml-6 md:ml-20 md:pl-6 absolute top-0 left-0 text-dark-900">
-                        <div className="z-0 bg-inherit w-full h-[calc(100vh-80px)] text-inherit font-[Roboto]" >
+                        <div className="z-0 bg-inherit w-full h-[calc(100vh-80px)] text-inherit font-[serif] md:font-[Roboto]" >
                             <div className="z-0 md:pl-20 h-[calc(100vh-112px)] flex flex-col justify-center md:flex-row md:justify-between md:grid md:grid-cols-6 md:grid-rows-2 md:gap-10 w-full" >
                                 <div className="w-full grow flex flex-col justify-center md:self-end md:col-span-6">
                                     <h1 className=" text-5xl tracking-tighter ml-6 md:col-span-3 md:row-start-1 md:ml-0">Jesteśmy gotowi. <br/>Twoja kolej.</h1>

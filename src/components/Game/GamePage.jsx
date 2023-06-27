@@ -49,7 +49,7 @@ const GamePage = () => {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ ease: "easeInOut", duration: 1, delay: 0.1 }}>
             <div className="bg-black text-light h-screen w-full relative flex flex-col custom-cursor">
                 <button onClick={handleExit} className="relative pointer-cursor">
-                    <img src={exitButton} alt="exit" className="absolute top-0 right-0 w-12 md:w-24 pointer-cursor" onClick={handleExit} />
+                    <img src={exitButton} alt="exit" className="absolute top-0 right-0 w-12 md:w-24 pointer-cursor" disablePictureInPicture onClick={handleExit} />
                 </button>
                 <img src={baner} alt="kosztorys" className="w-[100%]" />
                 <div className={isShown ? "flex flex-row justify-center" : "flex flex-row justify-center flex-grow"}>
@@ -66,10 +66,10 @@ const GamePage = () => {
                 </div>
                 <div ref={gameRulesRef} className="bg-black mt-8">
                     <div className={isShown ? "w-[100%] h-auto hidden md:block" : "hidden"}>
-                        <img src={zasadyGryMD} alt="kosztorys" className="w-[100%]" />
+                        <img src={zasadyGryMD} alt="kosztorys" className="w-[100%]" disablePictureInPicture />
                     </div>
                     <div className={isShown ? "w-[100%] h-auto md:hidden" : "hidden"}>
-                        <img src={zasadyGrySM} alt="kosztorys" className="w-[100%]" />
+                        <img src={zasadyGrySM} alt="kosztorys" className="w-[100%]" disablePictureInPicture />
                     </div>
                 </div>
 

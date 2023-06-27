@@ -53,18 +53,18 @@ const GallerySubPage02 = () => {
                 
     <motion.div className="bg-dark-900 w-full mt-0 text-light relative top-0 left-0 z-4" 
         initial = {{opacity: 0}} animate = {{opacity:1}} transition={{ease: "easeInOut", duration:1, delay:0.1}}>
-      <div className={`${isFooterVisible ? "bg-light text-dark-900" : "bg-dark-900 text-light"} min-h-screen transition-colors duration-500`}>
+      <div className={`${isFooterVisible ? "bg-light text-dark-900" : "bg-dark-900 text-light"} min-h-screen transition-colors duration-500 w-full`}>
           <nav className="bg-inherit h-28 w-full z-10">
             <NavBar />
           </nav>
-          <div className="md:ml-16 md:pl-28 md:mr-16"> 
+          <div className="md:ml-16 md:pl-28 md:mr-16 w-full"> 
               <h2 className="chapter m-20 text-2xl md:text-3xl">TREEO ART #2</h2>
               <div>
                   <div className="">
                     <img src={img01} alt="kuchnia z lakierowanymi frontami" className="pb-12" />
                   
                     <div className="grid grid-cols-2 grid-rows-3 md:pb-12 md:grid md:grid-cols-4 md:grid-rows-3 md:gap-12">
-                      <img src={img03a} alt="kuchnia" className="ml-12 md:ml-0 col-span-2 row-start-1 md:p-0 md:col-span-2 md:col-start-3 md:row-start-1"/>
+                      <img src={img03a} alt="kuchnia" className="pl-12 md:ml-0 col-span-2 row-start-1 md:p-0 md:col-span-2 md:col-start-3 md:row-start-1"/>
                       <img src={img03b} alt="kuchnia" className="pb-12 md:p-0 col-span-2 row-start-2 md:col-span-2 md:col-start-1 md:row-start-3"/>
                       <img src={img02} alt="kuchnia" className="pr-6 col-span-1 row-start-3 md:visible md:p-0 md:col-start-1 md:row-start-1 md:col-span-2 md:row-span-2"/>
                       <img src={img03} alt="kuchnia" className="pl-6 col-start-2 row-start-3 md:visible md:p-0 md:col-span-2 md:row-span-2 md:col-start-3 md:row-start-2"/>
@@ -116,7 +116,7 @@ const GallerySubPage02 = () => {
             <NavSideBarGallery />
           </div>
           <ScrollArrow />
-          <footer id="GS02footer" className=''>
+          <footer id="GS02footer" className="">
             <ContactForm />
           </footer>
       </div>

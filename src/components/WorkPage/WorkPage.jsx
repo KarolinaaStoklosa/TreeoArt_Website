@@ -43,7 +43,7 @@ const WorkPage = () => {
                 </nav>
                 <div className='flex flex-col w full h-[calc(100vh-112px)] top-0 left-0 pb-6 md:ml-20 md:mr-16 md:flex md:flex-row-reverse md:justify-between md:items-center md:pb-28'> 
                     <div className='ml-6 mt-0 grow flex flex-col justify-center md:ml-0 md:mr-0 md:flex-none '>
-                        <h1 className="font-[Roboto] text-5xl tracking-tighter ">Projekt, realizacja, <br />każdy <br />moment <br />pomiędzy</h1>
+                        <h1 className="font-[serif] md:font-[Roboto] text-5xl tracking-tighter ">Projekt, realizacja, <br />każdy <br />moment <br />pomiędzy</h1>
                     </div>
                     <div className='ml-6 grow-0'>
                         <nav className="text-light ">

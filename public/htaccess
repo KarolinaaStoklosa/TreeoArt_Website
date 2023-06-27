@@ -1,11 +1,15 @@
 <IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{HTTP_HOST} treeoart.pl
-RewriteCond "%{THE_REQUEST}" "^.*/index\.(php|htm|html) " [NC]
-RewriteRule ^(.*)index\.(php|htm|html)$ https://treeoart.pl/$1 [R=301,NC,L]
-RewriteCond %{HTTPS} !=on
-RewriteCond %{HTTP_HOST} treeoart\.pl$ [NC]
-RewriteRule .* https://treeoart.pl%{REQUEST_URI} [R=301,L]
-RewriteCond %{HTTP_HOST} www\.treeoart\.pl$ [NC]
-RewriteRule .* https://treeoart.pl%{REQUEST_URI} [R=301,L]
-</IfModule>
+    RewriteEngine On
+    RewriteBase /
+  
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^(.*)$ https://treeoart.pl/$1 [R=301,L]
+  
+    RewriteCond %{HTTP_HOST} !^treeoart\.pl$ [NC]
+    RewriteRule ^(.*)$ https://treeoart.pl/$1 [R=301,L]
+  
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.html [L]
+  </IfModule>
+  

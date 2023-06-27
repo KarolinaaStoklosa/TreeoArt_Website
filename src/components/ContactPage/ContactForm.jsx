@@ -4,7 +4,7 @@ const ContactForm = () => {
     return (
         <>
        
-        <div className="bg-inherit w-full h-[calc(100vh-80px)] text-inherit font-[Roboto] mt-20 pt-6" >
+        <div className="bg-inherit w-full h-[calc(100vh-80px)] text-inherit font-[serif] md:font-[Roboto] mt-20 pt-6" >
             <div className="h-[calc(100vh-112px)] flex flex-col justify-center md:pb-0 md:ml-24 md:grid md:grid-cols-3 md:grid-rows-2 md:gap-10" >
                 <div className="grow flex flex-col justify-center md:self-end">
                     <h1 className=" text-5xl tracking-tighter ml-6 md:col-span-3 md:row-start-1 md:ml-0">Jesteśmy gotowi. <br/>Twoja kolej.<br/>Teraz.</h1>

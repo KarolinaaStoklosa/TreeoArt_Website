@@ -49,7 +49,7 @@ import galeriaLoft03 from './image/galeriaLoft03.jpg';
 import galeriaSzafkaŁazienka01 from './/image/galeriaSzafkaŁazienka01.jpg';
 import galeriaSzafkaŁazienka02 from './/image/galeriaSzafkaŁazienka02.jpg';
 import ContactForm from "../ContactPage/ContactForm";
-import NavSideBar from "../NavBar/NavSideBar";
+import NavSideBarGallery from "../NavBar/NavSideBarGallery";
 
 const GalleryPage = () => {
     const [isFooterVisible, setIsFooterVisible] = useState(false);
@@ -77,7 +77,7 @@ const GalleryPage = () => {
             <nav className="bg-inherit h-28 w-full z-10">
                 <NavBar />
             </nav>
-            <div className="font-[Roboto] mt-24 top-0 left-0 mb-5  md:ml-20 md:pl-6 md:mr-16 md:flex md:flex-row-reverse md:justify-between md:items-center">
+            <div className="font-[serif] md:font-[Roboto] mt-24 top-0 left-0 mb-5  md:ml-20 md:pl-6 md:mr-16 md:flex md:flex-row-reverse md:justify-between md:items-center">
                 <h1 className="text-5xl tracking-tighter ml-6 pt-20 pb-20 mt-0 md:ml-0 md:mr-0">Unikalne. <br />Idealne.</h1>
                 <h2 className="text-2xl tracking-tighter ml-6 pb-12 md:pt-0 md:ml-0">Dopasowane <br/>do Twojego stylu.</h2>
             </div>
@@ -240,7 +240,7 @@ const GalleryPage = () => {
 
 
         <div className="color-light">
-            <NavSideBar />
+            <NavSideBarGallery />
         </div>
         
         <ScrollArrow bottomPosition="1rem" rightPosition="1rem" />

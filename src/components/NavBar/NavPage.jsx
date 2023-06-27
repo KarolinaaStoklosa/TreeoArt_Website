@@ -5,7 +5,7 @@ const NavPage = () => {
     return (
         <>
             <ul className='bg-dark-900 w-full h-screen flex flex-col wrap
-            font-[Roboto] text-bold text-6xl tracking-tighter text-light text-left'>
+            font-[serif] md:font-[Roboto] text-bold text-6xl tracking-[-.075em] md:tracking-tighter text-light text-left'>
                 <li className="mt-24 ml-6 cursor-pointer">
                     <Link to='/fundamenty'>Fundamenty</Link>
                 </li>

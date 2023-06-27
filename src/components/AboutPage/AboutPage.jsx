@@ -38,8 +38,8 @@ const AboutPage = () => {
                 </nav>
             <div className='flex flex-col h-[calc(100vh-112px)] top-0 left-0 pb-12 md:ml-20 md:mr-16 md:flex md:flex-row-reverse md:justify-between md:items-center md:pb-28'> 
                 <div className="md:mr-0 md:grow-0 grow flex flex-col justify-center md:flex-none">
-                    <h1 className=" font-[Roboto] text-5xl tracking-tighter ml-6 pb-12 md:ml-0 ">Kreatywni <br />profesjonaliści</h1>
-                    <h2 className="font-[Roboto] text-xl leading-6 tracking-tighter ml-6 pb-12 md:ml-0 md:pb-0">którzy z pasją i zaangażowaniem <br />tworzą wyjątkowe meble <br />dopasowane do Twoich potrzeb</h2>
+                    <h1 className=" font-[serif] md:font-[Roboto] text-5xl tracking-tighter ml-6 pb-12 md:ml-0 ">Kreatywni <br />profesjonaliści</h1>
+                    <h2 className="font-[serif] md:font-[Roboto] text-xl leading-6 tracking-tighter ml-6 pb-12 md:ml-0 md:pb-0">którzy z pasją i zaangażowaniem <br />tworzą wyjątkowe meble <br />dopasowane do Twoich potrzeb</h2>
                 </div>
                 <div className= "ml-6 md:grow grow-0">
                     <h2 className="mb-3 font-bold">Pokaż:</h2>
@@ -135,7 +135,7 @@ const AboutPage = () => {
                         <p className="pb-8 md:pb-8">Razem możemy stworzyć miejsce, w którym będziesz chciał żyć.</p>
                     </div>
 
-                    <div className="gradient2c md:col-start-2 md:row-start-4 mb-16 mr-16 md:m-0">
+                    <div className="gradient2c md:col-start-2 md:row-start-4 mb-16 md:m-0">
                         <img src={autoreklamaDlaczegoMy8} alt="dlaczego my, realizacja kraków" className="w-[100%] p-4" />    
                     </div>
                     <div className="mb-16 mt-8 ml-4 mr-4 md:ml-20 md:pl-6 md:mt-0 md:mr-16 md:col-start-1 md:row-start-4">
